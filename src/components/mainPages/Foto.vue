@@ -2,9 +2,9 @@
 <div class="text-center">
   <h1>Foto's</h1> 
   <br/>
-  <lightbox :images="evenement1" title="evenement1" ></lightbox>
-  <lightbox :images="evenement2" title="evenement2" ></lightbox>
-  <lightbox :images="images" title="Demo Gallery" ></lightbox>
+  <lightbox :images="FotosCultuuravond" title="Cultuuravond" ></lightbox>
+  <lightbox :images="FotosKleurrijk" title="Kleurrijk" ></lightbox>
+  <lightbox :images="FotosKortenaken" title="Kortenaken" ></lightbox>
 </div>
 </template>
 
@@ -13,95 +13,94 @@ export default {
   name: "fotos",
   data() {
     return {
-        images : [
+        FotosCultuuravond : [
     {
-        src: 'https://unsplash.it/500',
-        caption: 'Image 1',
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_0.jpg'),
     },
     {
-        src: 'https://unsplash.it/501',
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_1.jpg'),
     },
         {
-        src: 'https://unsplash.it/500',
-        caption: 'Image 1',
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_2.jpg'),
     },
     {
-        src: 'https://unsplash.it/501',
-    },
-        {
-        src: 'https://unsplash.it/500',
-        caption: 'Image 1',
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_3.jpg'),
     },
     {
-        src: 'https://unsplash.it/501',
-    },
-        {
-        src: 'https://unsplash.it/500',
-        caption: 'Image 1',
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_4.jpg'),
     },
     {
-        src: 'https://unsplash.it/501',
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_5.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_6.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_7.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_8.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosCultuuravond/Cultuuravond_9.jpg'),
     },
 ],
-        evenement1 : [
+        FotosKortenaken : [
     {
-        src: require('../../assets/images/evenement1/1.jpg'),
+        src: require('../../assets/images/FotosKortenaken/Kortenaken_1.jpg'),
     },
     {
-        src: require('../../assets/images/evenement1/2.jpg'),
+        src: require('../../assets/images/FotosKortenaken/Kortenaken_1.jpg'),
     },
         {
-        src: require('../../assets/images/evenement1/3.jpg'),
+        src: require('../../assets/images/FotosKortenaken/Kortenaken_2.jpg'),
     },
     {
-        src: require('../../assets/images/evenement1/1.jpg'),
+        src: require('../../assets/images/FotosKortenaken/Kortenaken_3.jpg'),
     },
     {
-        src: require('../../assets/images/evenement1/2.jpg'),
-    },
-        {
-        src: require('../../assets/images/evenement1/3.jpg'),
+        src: require('../../assets/images/FotosKortenaken/Kortenaken_4.jpg'),
     },
     {
-        src: require('../../assets/images/evenement1/1.jpg'),
-    },
-    {
-        src: require('../../assets/images/evenement1/2.jpg'),
-    },
-        {
-        src: require('../../assets/images/evenement1/3.jpg'),
+        src: require('../../assets/images/FotosKortenaken/Kortenaken_5.jpg'),
     },
 ],
-        evenement2 : [
+                FotosKleurrijk : [
     {
-        src: 'src/assets/images/evenement2/1.jpg',
-    },
-    {
-        src: 'src/assets/images/evenement2/2.jpg',
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_1.jpg'),
     },
         {
-        src: 'src/assets/images/evenement2/3.jpg',
-    },
-        {
-        src: 'src/assets/images/evenement2/1.jpg',
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_2.jpg'),
     },
     {
-        src: 'src/assets/images/evenement2/2.jpg',
-    },
-        {
-        src: 'src/assets/images/evenement2/3.jpg',
-    },
-        {
-        src: 'src/assets/images/evenement2/1.jpg',
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_3.jpg'),
     },
     {
-        src: 'src/assets/images/evenement2/2.jpg',
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_4.jpg'),
     },
-        {
-        src: 'src/assets/images/evenement2/3.jpg',
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_5.jpg'),
     },
-]
-    };
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_6.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_7.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_8.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_9.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_10.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKleurrijk/Kleurrijk_11.jpg'),
+    },
+    ]
+    }
   }
 };
 </script>
