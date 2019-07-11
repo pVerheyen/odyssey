@@ -1,0 +1,188 @@
+.sponsor-image {
+  min-height: 150px;
+  max-height: 150px;
+  max-width: 250px;
+}
+.nav-item {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.nav-ddown {
+  margin-left: 0px;
+  margin-top: 2px;
+}
+
+.dropdown-item:active {
+  background-color: lightgray !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  flex-shrink: 0;
+  margin-top: 90px;
+}
+
+.footer {
+  flex-grow: -1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p a:link {
+  color: gray;
+}
+
+/* visited link */
+p a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+p a:hover {
+  color: black;
+}
+
+/* selected link */
+p a:active {
+  color: gray;
+}
+
+.nav-item a:link {
+  color: gray;
+}
+
+/* visited link */
+.nav-item a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+.nav-item a:hover {
+  color: black;
+}
+
+/* selected link */
+.nav-item a:active {
+  color: gray;
+}
+
+.main-container {
+  background-color: #f8f9fa;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.main-pic {
+  height: 347px;
+  margin-top: -5px;
+}
+
+.sponsors-left {
+  text-align: right;
+}
+.img-news-1{
+  max-width: 600px;
+}
+
+.img-news-2{
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    background-color: #f8f9fa;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+  }
+ .links{
+   padding-top:30px;
+ }
+  .content {
+    flex: 1 0 auto;
+    flex-shrink: 0;
+    margin-top: 20%;
+  }
+
+  .main-pic {
+    width: 100px;
+  }
+
+  .sponsors-left {
+    text-align: center;
+  }
+
+  .sponsors-right {
+    text-align: center;
+  }
+
+  .calender {
+    text-align: center;
+  }
+
+  .img-news-1{
+    max-width:100%;
+    padding-left: 10px;    
+    padding-right: 10px;
+  }
+
+  .img-news-2{
+    max-width:100%;
+    padding-left: 10px;    
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+
+  .construction{
+    max-width:100%;
+  }
+
+  .main-activity{
+    text-align: center;
+  }
+
+  .padding-small{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+.lightbox-overlay{
+  z-index: 9999;
+}
+
+.holder{
+  margin-top: 5% !important;
+}
+
+.vue-lightbox h1{
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+.vue-lightbox ul{
+  max-width: 1000px !important;
+}
