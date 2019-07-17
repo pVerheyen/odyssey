@@ -11,9 +11,9 @@
         <div class="text-center">
           <h3>Wij repeteren op zaterdagavond in het Sportagon te Tessenderlo</h3>
 
-          <h6>Pré-Yessydo's: 18u00 - 19u30</h6>
+          <h6>Pré-Yessydo's: 18u00 - 19u00</h6>
 
-          <h6>Jeugdorkest Yessydo: 19u00 - 19u30</h6>
+          <h6>Jeugdorkest Yessydo: 18u3s0 - 19u30</h6>
 
           <h6>Musicband Odyssey: 19u30 - 21u00</h6>
         </div>
