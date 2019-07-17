@@ -7,6 +7,9 @@
   <lightbox :images="FotosKortenaken" title="Kortenaken" ></lightbox>
   <lightbox :images="FotosPannekoekenConcert" title="Pannekoekenconcert" ></lightbox>
   <lightbox :images="FotosMuziekkamp" title="Muziekkamp 2019" ></lightbox>
+  <lightbox :images="FotosSpaghettidag" title="Spaghettidag" ></lightbox>
+  <lightbox :images="FotosKlassiek" title="Klassiek uit mijnen tijd" ></lightbox>
+  <lightbox :images="FotosSnowman" title="Snowman XI" ></lightbox>
 </div>
 </template>
 
@@ -15,6 +18,114 @@ export default {
   name: "fotos",
   data() {
     return {
+    FotosSnowman : [
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_1-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_2-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_3-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_4-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_5-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_6-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSnowman/Snowman-XI_7-min.jpg'),
+    },
+    ],
+                        FotosKlassiek : [
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_1-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_2-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_3-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_4-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_5-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_6-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_7-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_8-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosKlassiek/Klassiek_uit_mijnen_tijd_9-min.jpg'),
+    },
+    ],
+                FotosSpaghettidag : [
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_1-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_2-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_3-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_4-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_5-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_6-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_7-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_8-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_9-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_10-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_11-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_12-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_13-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_14-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_15-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_16-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_17-min.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosSpaghettidag/Spaghettidag_18-min.jpg'),
+    }
+    ],
         FotosCultuuravond : [
     {
         src: require('../../assets/images/FotosCultuuravond/Cultuuravond_0-min.jpg'),
