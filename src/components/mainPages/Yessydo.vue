@@ -2,7 +2,9 @@
     <div>
         <div class="text-center padding-small">
         <h1 >Jeugdorkest Yessydo</h1>
-        <p>Kinderen die geïnteresseerd zijn in muziek, zijn welkom in het jeugdorkest Yessydo. De eerste kennismaking met muziek gebeurt bij de Pré-yessydo’s. Van zodra er een instrument gekozen is, kunnen zij starten als Yessydo. Zowel bij de Pré-yessydo’s als de Yessydo’s worden ze begeleid door een professionele dirigent en enthousiaste muzikanten. Jaarlijks hebben zij hun eigen concert. Ze nemen ook deel aan Europese muziekfestivals voor de jeugd. Jaarlijks wordt er ook een muziekkamp georganiseerd. Naast muziek is hier ook tijd voor spel en ontspanning. Wil je graag deel uitmaken van deze toffe bende. Twijfel dan niet en neem gerust contact met ons op..</p>
+        <p>Kinderen en jeugd die geïnteresseerd zijn in muziek, verdienen misschien wel een plaatsje in jeugdorkest Yessydo! Dit is een toffe bende o.l.v. Tim Boonen, die wekelijks hard repeteren voor hun jaarconcert en voor hun deelname aan het Snowman-concert in december. Tweejaarlijks laten we ons ook horen op het EMJ te Neerpelt.</p>
+        <p>Maar… het leven van een Yessydo is meer dan muziek maken alleen! Zo gaan we jaarlijks ook op muziekkamp waar, net zoals op alle andere losse activiteiten, het groepsgevoel versterken door ontspanning en spel heel belangrijk is. SAMENSPEL groeit alleen als je als groep in z’n geheel goed kan “samen spelen"!</p>
+        <p>De oudere Yessydo’s die hun virtuositeit en samenspelgevoel voldoende bewezen hebben, kunnen ook met Odyssey mee musiceren!</p>
         </div>
     <div class="padding-small">
     <h6><b><u>Contactpersonen Yessydo:</u></b></h6>

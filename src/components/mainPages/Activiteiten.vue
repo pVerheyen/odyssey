@@ -1,32 +1,29 @@
 <template>
   <div class="padding-small">
     <h1 class="text-center">Activiteiten</h1>
-    <br>
-    <!-- <div class="text-center" style="padding-top:30px">
+    <br />
+    <div class="text-center" style="padding-top:30px">
+      <!-- <div>
+        <h4>
+          <b>
+            <u>27 april 2019</u>
+          </b>
+          <router-link
+            :to="'/activiteiten/kleurrijk'"
+            style="  color: inherit;
     
-            <div>
-    
-                <h4><b><u>27 april 2019</u></b>
-                            <router-link :to="'/activiteiten/kleurrijk'" style="  color: inherit;
-    
-      text-decoration: inherit;">
-                    <b-button variant="outline-info" size="sm" style="margin-bottom:4px; margin-left: 5px;">
-    
-Meer info
-                        </b-button>
-    
-    
-                        </router-link>
-    
+      text-decoration: inherit;"
+          >
+            <b-button
+              variant="outline-info"
+              size="sm"
+              style="margin-bottom:4px; margin-left: 5px;"
+            >Meer info</b-button>
+          </router-link>
+        </h4>me
+      </div>  -->
 
-    
-                </h4>
-    
-            </div>
-    
-            <h5> Jaarconcert "Kleurrijk" (OC De Griffel Hulst)</h5>
-    
-    </div>-->
+    </div>
 
     <div class="text-center">
       <h4>
@@ -73,6 +70,15 @@ Meer info
       </h4>
 
       <h5>Themaconcert</h5>
+    </div>
+        <div class="text-center">
+      <h4>
+        <b>
+          <u>26 april 2020</u>
+        </b>
+      </h4>
+
+      <h5>Jeugdorkesten namiddag</h5>
     </div>
   </div>
 </template>

@@ -2,14 +2,14 @@
 <div class="text-center">
   <h1>Foto's</h1> 
   <br/>
-  <lightbox :images="FotosCultuuravond" title="Cultuuravond" ></lightbox>
-  <lightbox :images="FotosKleurrijk" title="Kleurrijk" ></lightbox>
-  <lightbox :images="FotosKortenaken" title="Kortenaken" ></lightbox>
-  <lightbox :images="FotosPannekoekenConcert" title="Pannekoekenconcert" ></lightbox>
-  <lightbox :images="FotosMuziekkamp" title="Muziekkamp 2019" ></lightbox>
-  <lightbox :images="FotosSpaghettidag" title="Spaghettidag" ></lightbox>
-  <lightbox :images="FotosKlassiek" title="Klassiek uit mijnen tijd" ></lightbox>
-  <lightbox :images="FotosSnowman" title="Snowman XI" ></lightbox>
+  <lightbox :images="FotosMuziekkamp" title="Muziekkamp 2019"></lightbox>
+  <lightbox :images="FotosPannekoekenConcert" title="Pannenkoekenconcert 2019" ></lightbox>
+  <lightbox :images="FotosKleurrijk" title="Kleurrijk 2019"></lightbox>
+  <lightbox :images="FotosKortenaken" title="Kortenaken 2019"></lightbox>
+  <lightbox :images="FotosSnowman" title="Snowman XI 2018"></lightbox>
+  <lightbox :images="FotosSpaghettidag" title="Jaarconcert Yessydo/pastaavond 2018"></lightbox>
+  <lightbox :images="FotosCultuuravond" title="Cultuuravond 2018"></lightbox>
+  <lightbox :images="FotosKlassiek" title="Klassiek uit mijnen tijd 2018"></lightbox>
 </div>
 </template>
 

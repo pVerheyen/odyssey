@@ -5,6 +5,7 @@ import mainPage from './components/mainPages/mainPage.vue';
 import news from './components/mainPages/news.vue'
 import about from './components/mainPages/about.vue'
 import yessydo from './components/mainPages/yessydo.vue'
+import preYessydo from './components/mainPages/pre-yessydo.vue'
 import contact from './components/mainPages/contact.vue'
 import activiteiten from './components/mainPages/activiteiten.vue'
 import agenda from './components/mainPages/agenda.vue'
@@ -51,6 +52,10 @@ const router = new VueRouter({
         {
             path: '/Activiteiten',
             component: activiteiten
+        },
+        {
+            path: '/preYessydo',
+            component: preYessydo
         },
         {
             path: '/agenda',
