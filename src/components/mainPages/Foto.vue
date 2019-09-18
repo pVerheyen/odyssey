@@ -2,6 +2,7 @@
 <div class="text-center">
   <h1>Foto's</h1> 
   <br/>
+  <lightbox :images="FotosIets" title="Klassiek uit mijnen tijd 2019"></lightbox>
   <lightbox :images="FotosMuziekkamp" title="Muziekkamp 2019"></lightbox>
   <lightbox :images="FotosPannekoekenConcert" title="Pannenkoekenconcert 2019" ></lightbox>
   <lightbox :images="FotosKleurrijk" title="Kleurrijk 2019"></lightbox>
@@ -10,7 +11,7 @@
   <lightbox :images="FotosSpaghettidag" title="Jaarconcert Yessydo/pastaavond 2018"></lightbox>
   <lightbox :images="FotosCultuuravond" title="Cultuuravond 2018"></lightbox>
   <lightbox :images="FotosKlassiek" title="Klassiek uit mijnen tijd 2018"></lightbox>
-</div>
+  </div>
 </template>
 
 <script>
@@ -18,6 +19,23 @@ export default {
   name: "fotos",
   data() {
     return {
+            FotosIets : [
+    {
+        src: require('../../assets/images/fotosIets/foto1.jpg'),
+    },
+    {
+        src: require('../../assets/images/fotosIets/foto2.jpg'),
+    },
+    {
+       src: require('../../assets/images/fotosIets/foto3.jpg'),
+    },
+    {
+       src: require('../../assets/images/fotosIets/foto4.jpg'),
+    },
+    {
+       src: require('../../assets/images/fotosIets/foto5.jpg'),
+    }
+    ],
     FotosSnowman : [
     {
         src: require('../../assets/images/FotosSnowman/Snowman-XI_1-min.jpg'),
