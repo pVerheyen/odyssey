@@ -46,14 +46,6 @@
 
       <b-col col md="3" class="calender" style="text-align:center">
         <h1>Kalender</h1>
-
-        <a href="/dist/kalender2019.pdf" target="_blank">
-          <img
-            src="../../assets/images/foto/kalender2019.png"
-            style="max-height:300px; max-width:250px"
-          >
-        </a>
-
         <br>
         <div>
           <br>
@@ -87,7 +79,7 @@
       <div class="align-center">
         <i class="fas fa-download"></i>
 
-        <img src="../../assets/images/flyers/muziekUitMijnenTijd.png" width="100%">
+        <img src="../../assets/images/flyers/sneeuwman.jpg" width="100%">
       </div>
 
       <b-btn class="mt-3" variant="outline-info" block @click="hideModal">verder naar de website!</b-btn>

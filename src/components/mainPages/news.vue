@@ -2,7 +2,7 @@
 <div class="text-center">
   <h1>Nieuws</h1> 
   <!-- <img src="../../assets/images/flyers/kleurrijk.png" class="img-news-1"> -->
-  <img src="../../assets/images/flyers/muziekUitMijnenTijd.png" class="img-news-2">
+  <img src="../../assets/images/flyers/sneeuwman.jpg" class="img-news-2">
 </div>
 </template>
 

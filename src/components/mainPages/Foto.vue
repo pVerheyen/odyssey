@@ -2,6 +2,7 @@
 <div class="text-center">
   <h1>Foto's</h1> 
   <br/>
+  <lightbox :images="FotosPastaPop2019" title="Pastapop 2019"></lightbox>
   <lightbox :images="FotosIets" title="Klassiek uit mijnen tijd 2019"></lightbox>
   <lightbox :images="FotosMuziekkamp" title="Muziekkamp 2019"></lightbox>
   <lightbox :images="FotosPannekoekenConcert" title="Pannenkoekenconcert 2019" ></lightbox>
@@ -19,6 +20,20 @@ export default {
   name: "fotos",
   data() {
     return {
+                    FotosPastaPop2019 : [
+    {
+        src: require('../../assets/images/FotosPastaPop2019/Pastapop1.jpg'),
+    },
+    {
+        src: require('../../assets/images/FotosPastaPop2019/Pastapop2.jpg'),
+    },
+    {
+       src: require('../../assets/images/FotosPastaPop2019/Pastapop3.jpg'),
+    },
+    {
+       src: require('../../assets/images/FotosPastaPop2019/Pastapop4.jpg'),
+    }
+    ],
             FotosIets : [
     {
         src: require('../../assets/images/fotosIets/foto1.jpg'),
