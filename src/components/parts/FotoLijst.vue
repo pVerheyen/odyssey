@@ -4,7 +4,7 @@
       <h2 style="color: black">{{title}}</h2>
     </a>
     <transition name="smooth">
-      <div v-if="show">
+      <div v-show="show">
         <lightbox :images="lijst"></lightbox>
       </div>
     </transition>
