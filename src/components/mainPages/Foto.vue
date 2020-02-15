@@ -2,25 +2,29 @@
   <div class="text-center">
     <h1>Foto's</h1>
     <br />
-    <lightbox :images="SneeuwmanXII" title="Sneeuwman XII 2019"></lightbox>
-    <lightbox :images="Muurklimmen2019" title="Muurklimmen 2019"></lightbox>
-    <lightbox :images="HerfstConcertSamana2019" title="Herfstconcert samana 2019"></lightbox>
-    <lightbox :images="FotosPastaPop2019" title="Pastapop 2019"></lightbox>
-    <lightbox :images="FotosIets" title="Klassiek uit mijnen tijd 2019"></lightbox>
-    <lightbox :images="FotosMuziekkamp" title="Muziekkamp 2019"></lightbox>
-    <lightbox :images="FotosPannekoekenConcert" title="Pannenkoekenconcert 2019"></lightbox>
-    <lightbox :images="FotosKleurrijk" title="Kleurrijk 2019"></lightbox>
-    <lightbox :images="FotosKortenaken" title="Kortenaken 2019"></lightbox>
-    <lightbox :images="FotosSnowman" title="Snowman XI 2018"></lightbox>
-    <lightbox :images="FotosSpaghettidag" title="Jaarconcert Yessydo/pastaavond 2018"></lightbox>
-    <lightbox :images="FotosCultuuravond" title="Cultuuravond 2018"></lightbox>
-    <lightbox :images="FotosKlassiek" title="Klassiek uit mijnen tijd 2018"></lightbox>
+
+    <FotoLijst :lijst="SneeuwmanXII" :title="'Sneeuwman XII 2019'"></FotoLijst>
+    <FotoLijst :lijst="Muurklimmen2019" :title="'Muurklimmen 2019'"></FotoLijst>
+    <FotoLijst :lijst="HerfstConcertSamana2019" :title="'Herfstconcert samana 2019'"></FotoLijst>
+    <FotoLijst :lijst="FotosPastaPop2019" :title="'Pastapop 2019'"></FotoLijst>
+    <FotoLijst :lijst="FotosIets" :title="'Klassiek uit mijnen tijd 2019'"></FotoLijst>
+    <FotoLijst :lijst="FotosMuziekkamp" :title="'Muziekkamp 2019'"></FotoLijst>    
+    <FotoLijst :lijst="FotosPannekoekenConcert" :title="'Pannenkoekenconcert 2019'"></FotoLijst>
+    <FotoLijst :lijst="FotosKleurrijk" :title="'Kleurrijk 2019'"></FotoLijst>
+    <FotoLijst :lijst="FotosKortenaken" :title="'Kortenaken 2019'"></FotoLijst>
+    <FotoLijst :lijst="FotosSnowman" :title="'Snowman XI 2018'"></FotoLijst>
+    <FotoLijst :lijst="FotosSpaghettidag" :title="'Jaarconcert Yessydo/pastaavond 2018'"></FotoLijst>
+    <FotoLijst :lijst="FotosCultuuravond" :title="'Cultuuravond 2018'"></FotoLijst>
+    <FotoLijst :lijst="FotosKlassiek" :title="'Klassiek uit mijnen tijd 2018'"></FotoLijst>
   </div>
 </template>
 
 <script>
+  import FotoLijst from "../parts/FotoLijst.vue";
+
 export default {
   name: "fotos",
+  components: {FotoLijst},
   mounted() {
     this.importAll(
       require.context(
@@ -31,18 +35,12 @@ export default {
       this.HerfstConcertSamana2019
     );
     this.importAll(
-      require.context(
-        "../../assets/images/muurklimmen/",
-        true,
-        /\.jpg$/
-      ), this.Muurklimmen2019
+      require.context("../../assets/images/muurklimmen/", true, /\.jpg$/),
+      this.Muurklimmen2019
     );
-        this.importAll(
-      require.context(
-        "../../assets/images/sneeuwman XII/",
-        true,
-        /\.jpg$/
-      ), this.SneeuwmanXII
+    this.importAll(
+      require.context("../../assets/images/sneeuwman XII/", true, /\.jpg$/),
+      this.SneeuwmanXII
     );
   },
   methods: {
@@ -54,6 +52,7 @@ export default {
   },
   data() {
     return {
+      show: false,
       HerfstConcertSamana2019: [],
       Muurklimmen2019: [],
       SneeuwmanXII: [],
