@@ -52,10 +52,11 @@
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         Sportlaan 5, 3980 Tessenderlo</p>
-                    <p>
-                        info@musicbandOdyssey.be</p>
+                    <a 
+          href="mailto:odyssey-tessenderlo@hotmail.com"><p>
+                        odyssey-tessenderlo@hotmail.com</p></a>
                         <p>
-                            <a href="tel:+32474323010">+32 474 32 30 10</a>
+                            <a style="color=blue" href="tel:+32474323010">+32 474 32 30 10</a>
                         </p>
                 </div>
             </div>

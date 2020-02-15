@@ -1,50 +1,34 @@
 <template>
-<div>
-    <div>
-        <h1 class="text-center">Bestuur</h1>
-    </div>
-      <b-row align-h="around" class="text-center">
-    <b-col md="4">
-        <h4><u>Odyssey</u></h4>
-        <b-row >
-        <b-col style="text-align:left"><b>voorzitter:</b></b-col>
-        <b-col style="text-align:left;">Thiery Debu</b-col>
-        </b-row>
-
-                <b-row style=" padding-top:10px;">
-        <b-col style="text-align:left"><b>Penningmeester:</b></b-col>
-        <b-col style="text-align:left">Freddy Crets</b-col>
-        </b-row>
-
-                <b-row style=" padding-top:10px;">
-        <b-col style="text-align:left"><b>Bestuursleden:</b></b-col>
-        <b-col style="text-align:left">Evy Engelen </br>Arianne Caudron </br>Lien Rutten </br>Kevin Luyten  </br>Geert Verheyen  </br></b-col>
-        </b-row>
-    </b-col>
-    <b-col md="4">        <h4><u>Yessydo</u></h4>
-        <b-row >
-        <b-col style="text-align:left"><b>voorzitter:</b></b-col>
-        <b-col style="text-align:left;">Thomas Verheyen</b-col>
-        </b-row>
-
-                <b-row style=" padding-top:10px;">
-        <b-col style="text-align:left"><b>Penningmeester:</b></b-col>
-        <b-col style="text-align:left">Freddy Crets</b-col>
-        </b-row>
-
-                <b-row style=" padding-top:10px;">
-        <b-col style="text-align:left"><b>Bestuursleden:</b></b-col>
-        <b-col style="text-align:left">Nelle Schepers </br>Lucas Vanduren </br>Cedric Debu  </br></b-col>
-        </b-row></b-col>
-  </b-row>
-</div>
+  <div>
+        <lightbox :images="images" title="Sneeuwman XII 2019"></lightbox>
+      <!-- <li v-for="client in images" v-bind:key="client.pathShort"><img :src="client.pathShort" /></li> -->
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "contact",
-        data() {
-            return {};
-        }
+export default {
+  name: "SectionOurClients",
+  data() {
+    return {
+      images: []
     };
+  },
+
+  mounted() {
+    this.importAll(require.context("../../assets/images/herfstconcert Samana/", true, /\.jpg$/));
+    //this.importAll(require.context("../../assets/images/muurklimmen/", true, /\.JPG$/));
+  },
+
+  methods: {
+    importAll(r) {
+      r.keys().forEach(key =>{
+        //  debugger;
+     // var naam = key.substring(2);
+     console.log(r(key))
+        this.images.push({ src: r(key) })
+      });
+      
+    }
+  }
+};
 </script>
