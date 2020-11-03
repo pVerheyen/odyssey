@@ -1,6 +1,6 @@
 <template>
   <div class="padding-small">
-    <h1 class="text-center">Activiteiten</h1>
+    <h1 class="text-center">Activiteiten (onder voorbehoud)</h1>
     <br />
     <div class="text-center" style="padding-top:30px">
       <!-- <div>
@@ -28,58 +28,22 @@
     <div class="text-center">
       <h4>
         <b>
-          <u>22 september 2019</u>
+          <u>26 december 2020</u>
         </b>
       </h4>
 
-      <h5>"Muziek uit mijnen tijd" (CC Het Loo Tessenderlo)</h5>
+      <h5>jaarconcert Musicband Odyssey en Jeugdorkest Yessydo</h5>
     </div>
     <div class="text-center">
       <h4>
         <b>
-          <u>3 november 2019</u>
+          <u>3 april 2021</u>
         </b>
       </h4>
 
-      <h5>Jaarconcert Jeugdorkest Yessydo & Pasta-avond (OC De GRiffel - Hulsterweg 184, Hulst)</h5>
-    </div>
-
-    <div class="text-center">
-      <h4>
-        <b>
-          <u>26 december 2019</u>
-        </b>
-      </h4>
-
-      <h5>Familieconcert "De Sneeuwman XII" (CC Het Loo Tessenderlo)</h5>
-    </div>
-    <div class="text-center">
-      <h4>
-        <b>
-          <u>16 februari 2020</u>
-        </b>
-      </h4>
-
-      <h5>Valentijnsontbijt</h5>
-    </div>
-    <div class="text-center">
-      <h4>
-        <b>
-          <u>25 april 2020</u>
-        </b>
-      </h4>
-
-      <h5>Themaconcert</h5>
-    </div>
-        <div class="text-center">
-      <h4>
-        <b>
-          <u>26 april 2020</u>
-        </b>
-      </h4>
-
-      <h5>Jeugdorkesten namiddag</h5>
-    </div>
+      <h5>Jaarconcert Musicband Odyssey en Jeugdorkest Yessydo</h5>
+    
+  </div>
   </div>
 </template>
 

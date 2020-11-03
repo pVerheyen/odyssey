@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright text-center py-3" style="background-color: rgba(0,0,0,0.1); margin-top:10px;">© 2019 Copyright
+        <div class="footer-copyright text-center py-3" style="background-color: rgba(0,0,0,0.1); margin-top:10px;">© 2020 Copyright
         </div>
     </footer>
 </template>

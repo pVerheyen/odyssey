@@ -6,7 +6,7 @@
         </div>
         <div>
                     <h6><b><u>Wanneer repeteren wij?</u></b></h6>
-        <p>Elke zaterdag van 18u00 - 19u30</p>
+        <p>Elke zaterdag van 18u00 - 19u00</p>
         <h6><b><u>Contactpersonen Pre-yessydo:</u></b></h6>
                                 <b-row>    
             <b-col col md="2" style="text-align: right">
