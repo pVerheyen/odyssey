@@ -9,7 +9,7 @@
 
       <b-col col md="6">
         <div class="text-center">
-          <h3>Wij repeteren op zaterdagavond in het Sportagon te Tessenderlo</h3>
+          <h3>Wij repeteren op zaterdagavond te campus Russelberg</h3>
 
           <h6>Pré-Yessydo's: 18u00 - 19u00</h6>
 
