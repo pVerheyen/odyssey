@@ -34,7 +34,7 @@
 
                 <b-row style=" padding-top:10px;">
         <b-col style="text-align:left"><b>Bestuursleden:</b></b-col>
-        <b-col style="text-align:left">Nelle Schepers </br>Lucas Vanduren </br>Cedric Debu  </br></b-col>
+        <b-col style="text-align:left">Nelle Schepers </br>Fabian Isenborghs </br>Gitte Geenen  </br>Evy Engelen  </br></b-col>
         </b-row></b-col>
   </b-row>
 </div>

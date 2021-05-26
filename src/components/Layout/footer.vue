@@ -51,7 +51,7 @@
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <b>Adres:</b> 58, 3980 Tessenderlo (Campus Russelberg)</p>
+                        <b>Adres:</b> Gerhagenstraat 58, 3980 Tessenderlo (Campus Russelberg)</p>
                                             <p><b>Mail:</b>
                         <a 
           href="mailto:odyssey-tessenderlo@hotmail.com">odyssey-tessenderlo@hotmail.com</a></p>

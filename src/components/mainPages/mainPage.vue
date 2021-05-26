@@ -11,11 +11,11 @@
         <div class="text-center">
           <h3>Wij repeteren op zaterdagavond te campus Russelberg</h3>
 
-          <h6>Pré-Yessydo's: 18u00 - 19u00</h6>
+          <h6>Pré-Yessydo's: 18u30 - 19u00</h6>
 
-          <h6>Jeugdorkest Yessydo: 18u30 - 19u30</h6>
+          <h6>Jeugdorkest Yessydo: 19u00 - 19u45</h6>
 
-          <h6>Musicband Odyssey: 19u30 - 21u00</h6>
+          <h6>Musicband Odyssey: 20u00 - 21u00</h6>
         </div>
       </b-col>
 
