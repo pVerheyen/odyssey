@@ -2,7 +2,12 @@
   <div>
     <div class="text-center">
       <h1>Nieuws</h1>
-        <div class="text-left">
+    <div>
+         <h3>
+            <img src="../../assets/images/flyers/pastapop.jpg" alt="Pastapop II" width="100%">
+          </h3>
+    </div>
+        <!-- <div class="text-left">
           Hallo,
           <br> 
           <br>
@@ -20,7 +25,7 @@ Ondertussen houd het veilig en zorg voor elkaar waar nodig.
 <br><br>
 Hopelijk tot gauw!!
 
-        </div>
+        </div> -->
   </div>
   </div>
 </template>

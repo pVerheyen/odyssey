@@ -73,16 +73,16 @@
       size="lg"
       hide-footer
       centered
-      title="Geen repitities omwille van COVID-19!"
+      title="Pastapop II!"
     >
       <div class="align-center">
         <i class="fas fa-download"></i>
-        <!-- <div class="text-center">
+        <div class="text-center">
           <h3>
-            
+            <img src="../../assets/images/flyers/pastapop.jpg" alt="Pastapop II"  width="100%">
           </h3>
-        </div> -->
-        <div class="text-left">
+        </div>
+        <!-- <div class="text-left">
           Hallo,
           <br> 
           <br>
@@ -100,7 +100,7 @@ Ondertussen houd het veilig en zorg voor elkaar waar nodig.
 <br><br>
 Hopelijk tot gauw!!
 
-        </div>
+        </div> -->
       </div>
       <b-btn class="mt-3" variant="outline-info" block @click="hideModal">verder naar de website!</b-btn>
     </b-modal>
