@@ -28,7 +28,7 @@
     <div class="text-center">
       <h4>
         <b>
-          <u>26 september 2021</u>
+          <u>25 september 2021</u>
         </b>
       </h4>
 
@@ -53,6 +53,24 @@
       <h5>SNEEUWMAN XIII</h5>
     
   </div>
+  <div class="text-center">
+      <h4>
+        <b>
+          <u>23 april 2022</u>
+        </b>
+      </h4>
+
+      <h5>Dubbelconcert Koninklijke harmonie de eendracht</h5>
+    </div>
+      <div class="text-center">
+      <h4>
+        <b>
+          <u>24 april 2022</u>
+        </b>
+      </h4>
+
+      <h5>Kempische trippel</h5>
+    </div>
   </div>
 </template>
 

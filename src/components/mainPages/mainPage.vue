@@ -73,14 +73,12 @@
       size="lg"
       hide-footer
       centered
-      title="Pastapop II!"
+      title="Muziek uit mijnen tijd III!"
     >
       <div class="align-center">
         <i class="fas fa-download"></i>
-        <div class="text-center">
-          <h3>
-            <img src="../../assets/images/flyers/pastapop.jpg" alt="Pastapop II"  width="100%">
-          </h3>
+          <div class="row">
+            <img src="../../assets/images/flyers/MUMT3_affiche-1.png" style='width: 100%' alt="dubbel">
         </div>
         <!-- <div class="text-left">
           Hallo,

@@ -4,7 +4,9 @@
       <h1>Nieuws</h1>
     <div>
          <h3>
-            <img src="../../assets/images/flyers/pastapop.jpg" alt="Pastapop II" width="100%">
+            <div class="row">
+            <img src="../../assets/images/flyers/MUMT3_affiche-1.png" style='width: 100%' alt="dubbel">
+        </div>
           </h3>
     </div>
         <!-- <div class="text-left">
