@@ -1,7 +1,6 @@
 <template>
 <div>
 
-            <!-- <img slot="img" class="d-block img-fluid w-100" style="height: 347px" src="../../assets/images/foto/LOTRMain.png" alt="image slot"> -->
             <img slot="img" class="d-block img-fluid w-100 main-pic" style="" src="../../assets/images/foto/anderconcert.jpg" alt="image slot">
 
 
