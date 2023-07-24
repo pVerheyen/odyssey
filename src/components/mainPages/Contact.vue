@@ -18,13 +18,13 @@
 
                 <b-row style=" padding-top:10px;">
         <b-col style="text-align:left"><b>Bestuursleden:</b></b-col>
-        <b-col style="text-align:left">Evy Engelen </br>Arianne Caudron </br>Lien Rutten </br>Kevin Luyten  </br>Geert Verheyen  </br></b-col>
+        <b-col style="text-align:left">Evy Engelen </br>Tim Boonen</br>Lien Rutten </br>Kevin Luyten  </br>Geert Verheyen  </br></b-col>
         </b-row>
     </b-col>
     <b-col md="4">        <h4><u>Yessydo</u></h4>
         <b-row >
         <b-col style="text-align:left"><b>voorzitter:</b></b-col>
-        <b-col style="text-align:left;">Thomas Verheyen</b-col>
+        <b-col style="text-align:left;">Fabian Isenborghs</b-col>
         </b-row>
 
                 <b-row style=" padding-top:10px;">
@@ -34,7 +34,13 @@
 
                 <b-row style=" padding-top:10px;">
         <b-col style="text-align:left"><b>Bestuursleden:</b></b-col>
-        <b-col style="text-align:left">Nelle Schepers </br>Fabian Isenborghs </br>Gitte Geenen  </br>Evy Engelen  </br></b-col>
+        <b-col style="text-align:left">
+        Nelle Schepers </br>
+        Marieke Wijckmans</br>
+        Staf Wijckmans</br>
+        Nora Eens</br>
+        Lieselotte Eens</br>
+        </b-col>
         </b-row></b-col>
   </b-row>
 </div>

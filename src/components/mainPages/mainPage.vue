@@ -11,11 +11,11 @@
         <div class="text-center">
           <h3>Wij repeteren op zaterdagavond te campus Russelberg</h3>
 
-          <h6>Pré-Yessydo's: 18u30 - 19u00</h6>
+          <h6>Pré-Yessydo's: 18u30 - 20u00</h6>
 
-          <h6>Jeugdorkest Yessydo: 19u00 - 19u45</h6>
+          <h6>Jeugdorkest Yessydo: 19u00 - 20u00</h6>
 
-          <h6>Musicband Odyssey: 20u00 - 21u00</h6>
+          <h6>Musicband Odyssey: 20u15 - 21u45</h6>
         </div>
       </b-col>
 
@@ -73,12 +73,12 @@
       size="lg"
       hide-footer
       centered
-      title="Muziek uit mijnen tijd III!"
+      title="Jaarconcert buenas noches!"
     >
       <div class="align-center">
         <i class="fas fa-download"></i>
           <div class="row">
-            <img src="../../assets/images/flyers/MUMT3_affiche-1.png" style='width: 100%' alt="dubbel">
+            <img src="../../assets/images/flyers/spaans.jpg" style='width: 100%' alt="dubbel">
         </div>
         <!-- <div class="text-left">
           Hallo,

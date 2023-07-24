@@ -5,7 +5,7 @@
     <div>
          <h3>
             <div class="row">
-            <img src="../../assets/images/flyers/MUMT3_affiche-1.png" style='width: 100%' alt="dubbel">
+            <img src="../../assets/images/flyers/spaans.jpg" style='width: 100%' alt="dubbel">
         </div>
           </h3>
     </div>
