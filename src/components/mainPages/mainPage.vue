@@ -73,12 +73,12 @@
       size="lg"
       hide-footer
       centered
-      title="Jaarconcert buenas noches!"
+      title="Pastapop 2023!"
     >
       <div class="align-center">
         <i class="fas fa-download"></i>
           <div class="row">
-            <img src="../../assets/images/flyers/spaans.jpg" style='width: 100%' alt="dubbel">
+            <img src="../../assets/images/flyers/pastapop2023.jpg" style='width: 100%' alt="dubbel">
         </div>
         <!-- <div class="text-left">
           Hallo,

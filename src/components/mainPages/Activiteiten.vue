@@ -50,7 +50,7 @@
 
       <h5>Kempische trippel</h5>
     </div>
-          <div class="text-center">
+    <div class="text-center">
       <h4>
         <b>
           <u>11 maart 2023</u>
@@ -58,6 +58,15 @@
       </h4>
 
       <h5>Jaarconcert buenas noches</h5>
+    </div>
+    <div class="text-center">
+      <h4>
+        <b>
+          <u>4 november 2023</u>
+        </b>
+      </h4>
+
+      <h5>Pastapop 2023</h5>
     </div>
   </div>
 </template>
